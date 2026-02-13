@@ -60,7 +60,7 @@ We provide a **one-click setup script** that handles virtual environments and de
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/thanhdo1110/Locket-Gold.git
+git clone https://github.com/azmedia2006/Locket-Gold.git
 cd Locket-Gold
 
 # 2. Run the setup script
@@ -157,8 +157,8 @@ graph TD
 
 <div align="center">
 
-**[ Report Bug ](https://github.com/thanhdo1110/Locket-Gold/issues) • [ Request Feature ](https://github.com/thanhdo1110/Locket-Gold/issues)**
+**[ Report Bug ](https://github.com/azmedia2006/Locket-Gold/issues) • [ Request Feature ](https://github.com/azmedia2006/Locket-Gold/issues)**
 
-Made with ❤️ by [Thanh Do](https://github.com/thanhdo1110)
+Made with ❤️ by [AZMEDIA](https://github.com/azmedia2006)
 
 </div>
