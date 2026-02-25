@@ -1,0 +1,19 @@
+name: Locket Bot 24/7
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Tự khởi động lại mỗi 6 tiếng
+  workflow_dispatch:
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install
+        run: pip install python-telegram-bot aiohttp motor pymongo
+      - name: Run
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        run: python main.py
